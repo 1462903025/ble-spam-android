@@ -1,68 +1,68 @@
 # BLE Spammer App 📡
 ![Logo](./assets/icon.png)
 
-## Overview 📋
-🕵️‍♂️ Based on the work of [Willy-JL](https://github.com/Willy-JL), [Spooks4576](https://github.com/Spooks4576), and [ECTO-1A](https://github.com/ECTO-1A), this Android app extends the capabilities of the Flipper Zero BLE Spam tool, enabling protocol spoofing across a wide range of devices and operating systems. It currently supports Apple Continuity Protocol, Google Fast Pair Protocol, Samsung EasySetup Protocol, and Microsoft SwiftPair Protocol.
+## 概述  📋
+🕵️‍♂️ 基于 [Willy-JL](https://github.com/Willy-JL), [Spooks4576](https://github.com/Spooks4576),  和 [ECTO-1A](https://github.com/ECTO-1A), 的工作, 这款 Android 应用程序扩展了 Flipper Zero BLE Spam 工具的功能，可在各种设备和操作系统上实现协议欺骗。它目前支持Apple连续性协议，Google快速配对协议，Samsung EasySetup协议和Microsoft SwiftPair协议。
 
-## Key Features 🔑
-### Apple Continuity Protocol Spoofing 🍏
-- Spoof Nearby Actions Modals and Proximity Pair Popup on iOS and iPadOS devices.
-- Trigger system crashes on iOS 17 (iPhone 12 or newer), leading to a reboot.
+## 主要特点 🔑
+### Apple 连续性协议欺骗 🍏
+- iOS 和 iPadOS 设备上的“欺骗附近操作”模式和“邻近感应对”弹出窗口。.
+- 在 iOS 17（iPhone 12 或更高版本）上触发系统崩溃，导致重新启动.
 
-### Google Fast Pair Protocol Spoofing 🤖
-- Emulate Google Fast Pair Protocol, compatible with most modern Android phones.
-- More than 195 different devices spoofed.
+### 谷歌快速配对协议欺骗 🤖
+- 模拟 Google 快速配对协议，与大多数现代 Android 手机兼容.
+- 超过 195 种不同的设备被欺骗.
 
-### Samsung EasySetup Protocol Spoofing 📲
-- Mimic the Samsung EasySetup Protocol for Buds and Watch devices.
-- The most effective way for Android, the target phone/tablet is literally unusable while activated.
+### Samsung EasySetup 协议欺骗  📲
+- 模仿 Buds 和 Watch 设备的 Samsung EasySetup 协议.
+- 对于Android来说，最有效的方法，目标手机/平板电脑在激活时实际上无法使用.
 
-### Microsoft SwiftPair Protocol Spoofing 💻
-- Spoof Microsoft's SwiftPair Protocol, simplifying device pairing on Windows.
-- Spoof devices with the name of your choice.
+### Microsoft SwiftPair 协议欺骗  💻
+- 欺骗 Microsoft 的 SwiftPair 协议，简化 Windows 上的设备配对.
+- 使用您选择的名称欺骗设备.
 
-## Requirements 📦
-- Android 8.0 (API level 26) or later
+## 要求 📦
+- Android 8.0（API 级别 26）或更高版本
 
-## Installation 🚀
-Get started with the BLE Spammer App through two simple methods:
+## 安装  🚀
+通过两种简单的方法开始使用 BLE Spammer 应用程序:
 
-### Prebuilt APK (Recommended) 📦
-- Download the prebuilt and signed APK from the [Release section](#).
+### 预建 APK（推荐） 📦
+-从 [Release section](#)下载.
 
-### Building from Source 🛠️
-- Clone this repository and open it in Android Studio.
-- Compile the app to create a customized APK.
+### 从源码🛠️构建 🛠️
+- 克隆此代码库并在 Android Studio 中打开它.
+- 编译应用程序以创建自定义 APK.
 
-## Usage 🚀
-Experiment with BLE protocol spoofing like a pro:
+## 用法  🚀
+像专业人士一样尝试 BLE 协议欺骗:
 
-1. Launch the app.
-2. Configure the delay between each packet (recommended: 500ms or 1000ms).
-3. Select the protocol you want to spoof from the available options.
+1. 启动应用程序.
+2. 配置每个数据包之间的延迟 (推荐: 500ms 或 1000ms).
+3. 从可用选项中选择要欺骗的协议.
 
-**Note**: Combine multiple protocols for ultimate flexibility (performance may be affected).
+**注意**: 组合使用多种协议以获得最大的灵活性（性能可能会受到影响）.
 
-## Customization 🛠️
-While the current version offers packet delay customization, future updates promise even more fine-tuned options. 🚀 Developers and contributors are invited to expand the realm of BLE protocol spoofing and uncover its hidden intricacies.
+## 定制  🛠️
+虽然当前版本提供数据包延迟自定义，但未来的更新承诺提供更多微调选项。🚀 邀请开发人员和贡献者扩展 BLE 协议欺骗的领域并揭示其隐藏的复杂性.
 
-## Known Limitations ⚠️
-Here's what you should know:
+## 已知限制 ⚠️
+以下是您应该了解的内容:
 
-- Restricted to the device's internal Bluetooth antenna, leading to a limited operational range.
-- Hardware limitations might affect range, speed, and effectiveness.
+- 仅限于设备的内部蓝牙天线，导致操作范围有限.
+- 硬件限制可能会影响范围、速度和有效性.
 
 
-## Screenshots 📸
-Here are some screenshots of the app in action:
+## 截图 📸
+以下是该应用运行的一些屏幕截图:
 
 ![Screenshot 1 - Home](./assets/Screenshot_1.jpg)
 ![Screenshot 2 - 2000ms Full Android Scope](./assets/Screenshot_2.jpg)
 ![Screenshot 3 - 20ms Windows/Samsung/iOS 17 Crash](./assets/Screenshot_3.jpg)
 
-**Caution**: This repository serves educational purposes exclusively. The maintainers are not responsible for any misuse or consequences arising from the application of this code.
+**注意**: 此存储库仅用于教育目的。维护者不对因应用本准则而产生的任何误用或后果负责.
 
 ---
-**Disclaimer**: Comply with the applicable laws and regulations while using this app. Unlawful or improper use may lead to severe legal consequences.
+**免责声明**: 使用此应用程序时，请遵守适用的法律和法规。非法或不当使用可能会导致严重的法律后果。
 
-Your expertise and contributions are instrumental in shaping the future of BLE protocol exploration. Let's push the boundaries of this fascinating technology together! 🌐🔍
+您的专业知识和贡献有助于塑造 BLE 协议探索的未来。让我们一起突破这项迷人技术的界限! 🌐🔍
